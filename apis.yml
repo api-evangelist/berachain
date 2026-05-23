@@ -1,0 +1,227 @@
+aid: berachain
+url: https://raw.githubusercontent.com/api-evangelist/berachain/refs/heads/main/apis.yml
+name: Berachain
+kind: company
+description: >-
+  Berachain is a high-performance EVM-identical Layer 1 blockchain built on
+  BeaconKit consensus with a novel Proof-of-Liquidity (PoL) economic model that
+  routes block rewards into productive liquidity via Reward Vaults. Mainnet
+  launched in early 2025 (chain ID 80094) with a Bepolia testnet (chain ID
+  80069). Developer surfaces include public JSON-RPC at rpc.berachain.com,
+  BeaconKit consensus client, EVM execution via Bera-Reth and Bera-Geth,
+  Berascan block explorer, indexers (Goldsky, Envio), and dApps such as BEX
+  (DEX) and Bend / Honey.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Blockchain
+  - Layer 1
+  - EVM
+  - Proof of Liquidity
+  - DeFi
+  - JSON-RPC
+  - BeaconKit
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis:
+  - aid: berachain:mainnet-rpc
+    name: Berachain Mainnet JSON-RPC
+    description: >-
+      Public Ethereum-compatible JSON-RPC endpoint for Berachain mainnet
+      (chain ID 80094). Supports the standard eth_* method set used by web3
+      clients, wallets, and indexers.
+    humanURL: https://docs.berachain.com/build/getting-started/common-resources
+    baseURL: https://rpc.berachain.com
+    tags:
+      - JSON-RPC
+      - Mainnet
+      - EVM
+    properties:
+      - type: Documentation
+        url: https://docs.berachain.com/build/getting-started/common-resources
+  - aid: berachain:bepolia-rpc
+    name: Berachain Bepolia Testnet JSON-RPC
+    description: >-
+      Public JSON-RPC endpoint for the Bepolia testnet (chain ID 80069), used
+      for application development and integration testing before deploying to
+      mainnet.
+    humanURL: https://docs.berachain.com/build/getting-started/common-resources
+    baseURL: https://bepolia.rpc.berachain.com
+    tags:
+      - JSON-RPC
+      - Testnet
+      - Bepolia
+    properties:
+      - type: Documentation
+        url: https://docs.berachain.com/build/getting-started/common-resources
+  - aid: berachain:beaconkit
+    name: BeaconKit Consensus
+    description: >-
+      Modular consensus layer for Ethereum-based chains used by Berachain to
+      drive validator operations and block production with single-slot finality
+      derived from CometBFT.
+    humanURL: https://docs.berachain.com/learn/what-is-beaconkit
+    baseURL: https://github.com/berachain/beacon-kit
+    tags:
+      - Consensus
+      - BeaconKit
+      - Validators
+    properties:
+      - type: Documentation
+        url: https://docs.berachain.com/learn/what-is-beaconkit
+      - type: Repository
+        url: https://github.com/berachain/beacon-kit
+  - aid: berachain:bera-reth
+    name: Bera-Reth Execution Client
+    description: >-
+      Primary Berachain execution client based on Reth, providing
+      Ethereum-equivalent EVM execution and JSON-RPC for node operators.
+    humanURL: https://docs.berachain.com/nodes/quickstart
+    baseURL: https://github.com/berachain/bera-reth
+    tags:
+      - Execution
+      - Reth
+      - Node
+    properties:
+      - type: Documentation
+        url: https://docs.berachain.com/nodes/quickstart
+      - type: Repository
+        url: https://github.com/berachain/bera-reth
+  - aid: berachain:bera-geth
+    name: Bera-Geth Execution Client
+    description: >-
+      Berachain execution client based on Go-Ethereum, offered as a
+      Geth-compatible alternative to Bera-Reth for node operators.
+    humanURL: https://docs.berachain.com/nodes/quickstart
+    baseURL: https://github.com/berachain/bera-geth
+    tags:
+      - Execution
+      - Geth
+      - Node
+    properties:
+      - type: Documentation
+        url: https://docs.berachain.com/nodes/quickstart
+      - type: Repository
+        url: https://github.com/berachain/bera-geth
+  - aid: berachain:proof-of-liquidity
+    name: Proof of Liquidity Protocol
+    description: >-
+      Berachain's economic coordination layer — Reward Vaults, BGT, and
+      validator boost contracts that turn block emissions into application
+      liquidity rather than passive staking yield.
+    humanURL: https://docs.berachain.com/learn/what-is-proof-of-liquidity
+    baseURL: https://docs.berachain.com/learn/what-is-proof-of-liquidity
+    tags:
+      - PoL
+      - Smart Contracts
+      - Liquidity
+    properties:
+      - type: Documentation
+        url: https://docs.berachain.com/learn/what-is-proof-of-liquidity
+  - aid: berachain:berascan-explorer
+    name: Berascan Block Explorer
+    description: >-
+      Etherscan-style block explorer for Berachain mainnet — view transactions,
+      blocks, contracts, tokens, and verify Solidity source.
+    humanURL: https://berascan.com
+    baseURL: https://berascan.com
+    tags:
+      - Explorer
+      - Berascan
+      - Mainnet
+    properties:
+      - type: Documentation
+        url: https://berascan.com
+  - aid: berachain:berascan-testnet-explorer
+    name: Berascan Bepolia Testnet Explorer
+    description: >-
+      Berascan instance for the Bepolia testnet, supporting transaction lookup
+      and contract verification for testnet deployments.
+    humanURL: https://testnet.berascan.com
+    baseURL: https://testnet.berascan.com
+    tags:
+      - Explorer
+      - Bepolia
+      - Testnet
+    properties:
+      - type: Documentation
+        url: https://testnet.berascan.com
+  - aid: berachain:developer-tools
+    name: Berachain Developer Tools
+    description: >-
+      Curated registry of RPC providers, oracles, indexers, wallets, dev IDEs,
+      and SDK packages supported on Berachain.
+    humanURL: https://docs.berachain.com/build/getting-started/developer-tools
+    baseURL: https://docs.berachain.com/build/getting-started/developer-tools
+    tags:
+      - Tooling
+      - SDKs
+      - Indexers
+    properties:
+      - type: Documentation
+        url: https://docs.berachain.com/build/getting-started/developer-tools
+  - aid: berachain:deployed-contracts
+    name: Berachain Deployed Contracts
+    description: >-
+      Registry of core protocol contract addresses on mainnet and Bepolia —
+      Reward Vaults, BGT, HONEY, BERA wrapper, multicall, deterministic
+      deployers, and staking-pool addresses.
+    humanURL: https://docs.berachain.com/build/getting-started/deployed-contracts
+    baseURL: https://docs.berachain.com/build/getting-started/deployed-contracts
+    tags:
+      - Contracts
+      - Addresses
+      - Registry
+    properties:
+      - type: Documentation
+        url: https://docs.berachain.com/build/getting-started/deployed-contracts
+common:
+  - type: Website
+    url: https://www.berachain.com
+  - type: Documentation
+    url: https://docs.berachain.com
+  - type: GettingStarted
+    url: https://docs.berachain.com/build/getting-started/common-resources
+  - type: APIReference
+    url: https://docs.berachain.com/build/getting-started/common-resources
+  - type: Hub
+    url: https://hub.berachain.com
+  - type: TestnetHub
+    url: https://bepolia.hub.berachain.com
+  - type: Explorer
+    url: https://berascan.com
+  - type: TestnetExplorer
+    url: https://testnet.berascan.com
+  - type: GitHub
+    url: https://github.com/berachain
+  - type: Blog
+    url: https://blog.berachain.com
+  - type: Twitter
+    url: https://x.com/berachain
+  - type: Discord
+    url: https://discord.gg/berachain
+  - type: Telegram
+    url: https://t.me/berachain
+  - type: Forum
+    url: https://forum.berachain.com
+  - type: PrivacyPolicy
+    url: https://www.berachain.com/privacy
+  - type: TermsOfService
+    url: https://www.berachain.com/terms
+integrations:
+  - name: BEX (DEX)
+  - name: Bend (Lending)
+  - name: Honey (Stablecoin)
+  - name: Goldsky
+  - name: Envio
+  - name: QuickNode
+  - name: Alchemy
+  - name: Ankr
+  - name: dRPC
+  - name: Pyth
+  - name: RedStone
+  - name: Stargate
+  - name: LayerZero
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
