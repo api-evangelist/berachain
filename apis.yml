@@ -11,7 +11,7 @@ description: >-
   BeaconKit consensus client, EVM execution via Bera-Reth and Bera-Geth,
   Berascan block explorer, indexers (Goldsky, Envio), and dApps such as BEX
   (DEX) and Bend / Honey.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Blockchain
   - Layer 1
