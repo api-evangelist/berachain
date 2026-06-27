@@ -202,13 +202,13 @@ common:
     url: https://discord.gg/berachain
   - type: Telegram
     url: https://t.me/berachain
-  - type: Forum
+  - type: Forums
     url: https://forum.berachain.com
   - type: PrivacyPolicy
     url: https://www.berachain.com/privacy
   - type: TermsOfService
     url: https://www.berachain.com/terms
-  - type: LLMsTxt
+  - type: LlmsText
     url: https://docs.berachain.com/llms.txt
 integrations:
   - name: BEX (DEX)
