@@ -176,6 +176,8 @@ apis:
       - type: Documentation
         url: https://docs.berachain.com/build/getting-started/deployed-contracts
 common:
+  - type: DomainSecurity
+    url: security/berachain-domain-security.yml
   - type: Website
     url: https://www.berachain.com
   - type: Documentation
