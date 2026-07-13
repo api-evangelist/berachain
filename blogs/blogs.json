@@ -2,11 +2,13 @@
   "repo": "berachain",
   "feeds": [
     {
-      "source": "https://blog.berachain.com",
+      "source": "https://github.com/berachain",
+      "feed_url": "https://github.com/berachain",
+      "title": "",
       "saved": 0,
-      "error": "HTTP 429 Too Many Requests"
+      "method": "none"
     }
   ],
   "post_count": 0,
-  "fetched": "2026-06-27T12:27:42Z"
+  "fetched": "2026-07-11T11:50:51Z"
 }
