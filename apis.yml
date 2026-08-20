@@ -167,6 +167,10 @@ apis:
     baseURL: https://docs.berachain.com/build/getting-started/developer-tools
     tags:
       - Tooling
+      - SDK
+      - Indexers
+    tags_raw:
+      - Tooling
       - SDKs
       - Indexers
     properties:
