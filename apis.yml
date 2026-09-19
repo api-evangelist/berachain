@@ -89,6 +89,10 @@ apis:
     tags:
       - Consensus
       - BeaconKit
+      - Validator
+    tags_raw:
+      - Consensus
+      - BeaconKit
       - Validators
     properties:
       - type: Documentation
