@@ -1,4 +1,4 @@
-# berachain
+# Berachain
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,124 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Berachain — EVM-compatible L1 with Proof-of-Liquidity consensus
+Berachain is a high-performance EVM-identical Layer 1 blockchain built on BeaconKit consensus with a novel Proof-of-Liquidity (PoL) economic model that routes block rewards into productive liquidity via Reward Vaults. Mainnet launched in early 2025 (chain ID 80094) with a Bepolia testnet (chain ID 80069). Developer surfaces include public JSON-RPC at rpc.berachain.com, BeaconKit consensus client, EVM execution via Bera-Reth and Bera-Geth, Berascan block explorer, indexers (Goldsky, Envio), and dApps such as BEX (DEX) and Bend / Honey.
+
+**Areas:** Blockchain · Layer 1 · EVM · Proof of Liquidity · DeFi · JSON-RPC · BeaconKit
+
+## Berachain on APIs.io
+
+Everything profiled for Berachain is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/berachain/](https://apis.io/providers/berachain/)** — or go straight to one of the APIs or properties below.
+
+### APIs (10)
+
+- [Berachain Mainnet JSON-RPC](https://apis.io/apis/berachain/mainnet-rpc/) — Public Ethereum-compatible JSON-RPC endpoint for Berachain mainnet (chain ID 80094). Supports the standard eth_* method set used by web3 clients, wallets,…
+- [Berachain Bepolia Testnet JSON-RPC](https://apis.io/apis/berachain/bepolia-rpc/) — Public JSON-RPC endpoint for the Bepolia testnet (chain ID 80069), used for application development and integration testing before deploying to mainnet.
+- [BeaconKit Consensus](https://apis.io/apis/berachain/beaconkit/) — Modular consensus layer for Ethereum-based chains used by Berachain to drive validator operations and block production with single-slot finality derived…
+- [Bera-Reth Execution Client](https://apis.io/apis/berachain/bera-reth/) — Primary Berachain execution client based on Reth, providing Ethereum-equivalent EVM execution and JSON-RPC for node operators.
+- [Bera-Geth Execution Client](https://apis.io/apis/berachain/bera-geth/) — Berachain execution client based on Go-Ethereum, offered as a Geth-compatible alternative to Bera-Reth for node operators.
+- [Proof of Liquidity Protocol](https://apis.io/apis/berachain/proof-of-liquidity/) — Berachain's economic coordination layer — Reward Vaults, BGT, and validator boost contracts that turn block emissions into application liquidity rather than…
+- [Berascan Block Explorer](https://apis.io/apis/berachain/berascan-explorer/) — Etherscan-style block explorer for Berachain mainnet — view transactions, blocks, contracts, tokens, and verify Solidity source.
+- [Berascan Bepolia Testnet Explorer](https://apis.io/apis/berachain/berascan-testnet-explorer/) — Berascan instance for the Bepolia testnet, supporting transaction lookup and contract verification for testnet deployments.
+- [Berachain Developer Tools](https://apis.io/apis/berachain/developer-tools/) — Curated registry of RPC providers, oracles, indexers, wallets, dev IDEs, and SDK packages supported on Berachain.
+- [Berachain Deployed Contracts](https://apis.io/apis/berachain/deployed-contracts/) — Registry of core protocol contract addresses on mainnet and Bepolia — Reward Vaults, BGT, HONEY, BERA wrapper, multicall, deterministic deployers, and…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [Moved to /providers/berachain/](https://apis.io/servers/berachain/berachain/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Berachain Domain Security](https://apis.io/security/berachain/berachain-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Berachain Plans Pricing](https://apis.io/plans/berachain/berachain-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Berachain Rate Limits](https://apis.io/rate-limits/berachain/berachain-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Berachain Finops](https://apis.io/finops/berachain/berachain-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.berachain.com)
+- [Documentation](https://docs.berachain.com)
+- [Getting started](https://docs.berachain.com/build/getting-started/common-resources)
+- [API reference](https://docs.berachain.com/build/getting-started/common-resources)
+- [Blog](https://blog.berachain.com)
+- [Terms of service](https://www.berachain.com/terms)
+- [Privacy policy](https://www.berachain.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 20.7** — emerging · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 80.0 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 34.5 |
+| Access clarity | 15.8 |
+
+**Agent readiness 9.3** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 9.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/berachain/](https://apis.io/providers/berachain/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Berachain: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/berachain/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
